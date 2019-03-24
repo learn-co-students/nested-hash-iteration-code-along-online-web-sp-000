@@ -1,4 +1,4 @@
-require 'pry'
+ require pry'
 
   # This is the array we will be passing into the remove_strawberry method
   # contacts = {
@@ -14,6 +14,4 @@ require 'pry'
   #   }
   # }
   
-def remove_strawberry(contacts)
-
-end
+puts remove_strawberry(contacts)
