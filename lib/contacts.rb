@@ -15,5 +15,13 @@ require 'pry'
   # }
   
 def remove_strawberry(contacts)
-
+  contacts.each do |name, value|
+    if name == "Freddy Mercury"
+      value.each do |i, j|
+        if i == :favorite_ice_cream_flavors ### favorite_ice_cream_flavors in not a variable, it is a ":string"
+          j.delete("strawberry")
+        end
+      end
+    end
+  end
 end
