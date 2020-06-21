@@ -1,0 +1,15 @@
+
+[1mFrom:[0m /home/reevesalic/Development/code/nested-hash-iteration-code-along-online-web-sp-000/lib/contacts.rb:21 Object#remove_strawberry:
+
+    [1;34m16[0m:   
+    [1;34m17[0m: [32mdef[0m [1;34mremove_strawberry[0m(contacts)
+    [1;34m18[0m:   contacts.each [32mdo[0m |person, contact_details_hash|
+    [1;34m19[0m:     [32mif[0m person == [31m[1;31m"[0m[31mFreddy Mercury[1;31m"[0m[31m[0m
+    [1;34m20[0m:       contact_details_hash.each [32mdo[0m |attribute, data|
+ => [1;34m21[0m:         [32mif[0m attribute == [33m:favorite_ice_cream_flavors[0m
+    [1;34m22[0m:           binding.pry
+    [1;34m23[0m:         [32mend[0m
+    [1;34m24[0m:     [32mend[0m
+    [1;34m25[0m:   [32mend[0m
+    [1;34m26[0m: [32mend[0m
+
