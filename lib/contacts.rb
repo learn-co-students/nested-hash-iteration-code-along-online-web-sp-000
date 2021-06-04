@@ -15,5 +15,11 @@ require 'pry'
   # }
   
 def remove_strawberry(contacts)
-
+  contacts.each do |key ,value|
+    value.each do |sec_key, sec_value|
+      if sec_key == :favorite_ice_cream_flavors
+        sec_value.shift
+      end
+    end
+  end
 end
